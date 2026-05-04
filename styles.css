@@ -1,0 +1,76 @@
+:root {
+  --main-color: #002941;
+  --text-color: #101010;
+  --link-color: #205bc2;
+}
+
+a {
+  color: #4c6ebe;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--main-color);
+}
+
+h1 {
+  line-height: 1.1;
+  font-size: xx-large;
+}
+
+h2 {
+  font-size: large;
+  line-height: 1.2;
+  font-weight: 400;
+}
+
+p {
+  font-size: medium;
+  color: var(--text-color);
+}
+
+* {
+  font-family: "Trebuchet MS", Arial, sans-serif;
+}
+/* body {
+  font: 100%/1.618 sans-serif;
+} */
+img {
+  border-radius: 50%;
+  width: auto;
+  max-height: 2em;
+  margin-left: 1rem;
+}
+
+#name {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  line-height: 1em; /* Adjust as needed */
+}
+
+body {
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  padding: 1rem;
+}
+
+nav {
+  display: flex-column;
+  gap: 1rem;
+}
+
+div.flex {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+}
+
+div.grid {
+  display: grid;
+  grid-template-columns: 2fr;
+  margin-top: 1em;
+}
