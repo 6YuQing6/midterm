@@ -9,26 +9,31 @@
 <body>
   <!-- Navigation menu -->
   <nav>
-    <a href="#">About</a>
-    <a href="#">Resume</a>
-    <a href="#">Projects</a>
-    <a href="#">Contact</a>
+    <a href="#about">About</a>
+    <a href="https://drive.google.com/file/d/1FA41DYmxjCAN_9N8DXbC8qkkuLVboSTr/view?usp=sharing" target="_blank">Resume</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
   </nav>
   <!-- About Me -->
   <div class="grid">
     <div>
       <h1 id="name">Sunny Han</h1>
       <div class="flex">
-        <h2>I make websites and games</h2>
-        <img src="sun-color-icon.png" alt="Sun Icon">
+        <h2 id="title-description">I make websites and games</h2>
       </div>
+      <h3  id="about">About Me</h3>
       <p>
-        Contact me: shan66@ucsc.edu <br/>
-        Take a look at my <a href="#"> resume </a>
+        I'm a CS Game Design graduate from UC Santa Cruz who loves making websites and games that feel great to use. I'm open to freelance work and always excited to collaborate; especially on creative or unconventional projects. Ask me about my favorite manga, anime, tv show, book, or game! You can contact me at shan66@ucsc.edu. 
+      </p>
+      <p>
+        Take a look at my <a href="https://drive.google.com/file/d/1FA41DYmxjCAN_9N8DXbC8qkkuLVboSTr/view?usp=sharing" target="_blank">resume</a>.
       </p>
     </div>
+
+
+    <div id="info">
     <!-- Resume -->
-    <div>
+    <!-- <div id="resume">
       <h3>Skills</h3>
       <ul>
         <li>Javascript/Typescript</li>
@@ -36,14 +41,28 @@
         <li>C/C++</li>
         <li>Unity</li>
       </ul>
-      <div>
-        More stuff later..
-      </div>
-    </div>
+    </div> -->
     <!-- Projects (later) -->
+     <div id="projects">
+      <h3>Projects</h3>
+      <div id="projects-websites" class="section">
+        <h4> Websites </h4>
+        <div id="projects-list">
+        </div>
+      </div>
+      </div>
+      <div id="projects-games" class="section">
+        <h4> Games and Experiments</h4>
+        <div id="games-list"></div>
+      </div>
+
+      
+     </div>
+    </div>
+
   </div>
 
 
-  
+  <script src="/projects.js"></script>
 </body>
 </html>
