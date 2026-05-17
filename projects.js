@@ -13,7 +13,7 @@ const projects = [
       "MongoDB",
       "ElevenLabs",
     ],
-    image: "/images/epieat2.png",
+    image: "images/epieat2.png",
     link: "https://devpost.com/software/episcanner",
     date: "May 2026",
   },
@@ -23,7 +23,7 @@ const projects = [
       "A recipe and wellness blog featuring allergen-free desserts and snacks for people managing celiac disease, EOE, and GERD. Raises awareness about gastrointestinal health and its connection to disordered eating patterns.",
     technologies: ["React", "Typescript", "Material UI", "Vite", "Firebase"],
     link: "https://github.com/6YuQing6/taste-without-trouble",
-    image: "/images/taste-without-trouble.png",
+    image: "images/taste-without-trouble.png",
     date: "March 2026 - In Development",
   },
   {
@@ -32,7 +32,7 @@ const projects = [
       "A portfolio website and e-commerce store for an artist showcasing their work and providing information about upcoming exhibitions.",
     technologies: ["React", "Typescript", "Vite", "Cloudinary", "Vercel"],
     link: "https://bellahanart.vercel.app/",
-    image: "/images/bellahanart.png",
+    image: "images/bellahanart.png",
     date: "February 2026 - In Development",
   },
   {
@@ -41,7 +41,7 @@ const projects = [
       "Developed in a team of 6 for my computer science capstone. UCSC Amazon is a full-stack e-commerce web app that reproduces core Amazon features using React, GraphQL, and PostgreSQL. It was deployed on AWS EC2 with CI/CD pipelines via GitHub Actions and Docker for automated testing and deployment.",
     technologies: ["React", "GraphQL", "Nodejs", "PostgreSQL", "AWS", "Docker"],
     link: "https://github.com/ucsc-amazon/ucsc-amazon",
-    image: "/images/sammytheslug.png",
+    image: "images/sammytheslug.png",
     date: "January 2024 - August 2024",
   },
 ];
@@ -52,7 +52,7 @@ const games = [
     description:
       "This is a mini project inspired by neal.fun/perfect-circle. Draw a perfect ellipse with 99.9% accuracy.",
     technologies: ["HTML", "Javascript", "CSS"],
-    image: "/images/perfectellipse.png",
+    image: "images/perfectellipse.png",
     link: "https://6yuqing6.github.io/perfectellipse/",
     date: "April 2026",
   },
@@ -61,7 +61,7 @@ const games = [
     description:
       "Submission for Mystery Game Jam 2026. I designed the UI and created the background assets.",
     technologies: ["Phaser", "Javascript", "HTML", "Figma"],
-    image: "/images/mindpalace.png",
+    image: "images/mindpalace.png",
     link: "https://corvuscorae.itch.io/mind-palace-running-out-of-time",
     date: "April 2026",
   },
@@ -70,7 +70,7 @@ const games = [
   //   description:
   //     "Top-down Unity 2D game cat cafe visual novel game prototype. Created in a team of 6.",
   //   technologies: ["Unity", "C#"],
-  //   image: "https://img.itch.zone/aW1nLzIwNDMwMjgzLnBuZw==/347x500/jDGQQF.png",
+  //   image: "https:/img.itch.zone/aW1nLzIwNDMwMjgzLnBuZw==/347x500/jDGQQF.png",
   //   link: "https://darkyarti.itch.io/from-stray-to-stay",
   //   date: "March 2025",
   // },
@@ -79,7 +79,7 @@ const games = [
     description:
       "A mini project I created for a class. Play as a gliding frog on their journey into the clouds. Last as long as possible without falling, and try to beat your previous high scores.",
     technologies: ["Phaser", "Javascript", "HTML"],
-    image: "/images/Froggo.gif",
+    image: "images/Froggo.gif",
     link: "https://6yuqing6.github.io/Frog-Game/",
     date: "January 2024",
   },
