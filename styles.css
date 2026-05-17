@@ -200,12 +200,20 @@ div.box-project {
   display: grid;
   grid-template-columns: 1fr 4fr; /* fixed small image, content gets the rest */
   column-gap: 1.25rem;
+  /* outline: 1px solid var(--main-color); */
   margin-bottom: 0.75rem;
-  border: 1px solid var(--main-color);
-  /* background-color: #fcfdff; */
+  /* background: #fcfdff; */
   padding: 1.25rem;
   border-radius: 8px;
   align-items: center;
+  position: relative;
+  z-index: 1;
+
+  background: rgba(255, 255, 255, 0.55);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid color-mix(in srgb, var(--main-color) 30%, transparent);
+  box-shadow: 0 2px 12px rgba(0, 126, 199, 0.08);
 }
 
 /* div.box-project {
@@ -239,6 +247,22 @@ div.img-project img {
 #projects-list {
   display: flex;
   flex-direction: column;
+}
+
+/* Bubble Background */
+#bubble-layer {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.bubble {
+  position: absolute;
+  border-radius: 50%;
+  opacity: 0.15;
+  will-change: transform;
 }
 
 /* Mobile View */
