@@ -212,7 +212,7 @@ div.box-project {
   background: rgba(255, 255, 255, 0.55);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
-  border: 1px solid color-mix(in srgb, var(--main-color) 30%, transparent);
+  border: 1px solid color-mix(in srgb, var(--border) 30%, transparent);
   box-shadow: 0 2px 12px rgba(0, 126, 199, 0.08);
 }
 
@@ -229,7 +229,7 @@ div.box-project {
 } */
 
 div.box-project:hover {
-  background: #e3f1ff;
+  border: 1px solid color-mix(in srgb, var(--main-color) 30%, transparent);
 }
 
 div.img-project {
@@ -261,7 +261,7 @@ div.img-project img {
 .bubble {
   position: absolute;
   border-radius: 50%;
-  opacity: 0.15;
+  opacity: 0.3;
   will-change: transform;
 }
 
