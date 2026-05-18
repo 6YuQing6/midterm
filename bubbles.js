@@ -20,7 +20,7 @@ bubbles.forEach((b) => {
     background: ${b.color};
     filter: blur(${Math.round(b.size * 0.05)}px);
   `;
-  el.dataset.speed = b.speed;
+  el.dataset.speed = -b.speed;
   layer.appendChild(el);
 });
 

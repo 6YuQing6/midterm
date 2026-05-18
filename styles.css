@@ -206,8 +206,8 @@ div.box-project {
   padding: 1.25rem;
   border-radius: 8px;
   align-items: center;
-  position: relative;
-  z-index: 1;
+  /* position: relative;
+  z-index: 1; */
 
   background: rgba(255, 255, 255, 0.55);
   backdrop-filter: blur(12px);
@@ -274,6 +274,7 @@ div.img-project img {
   }
   div.grid > div:first-child {
     position: static; /* back to normal flow on mobile */
+    z-index: 1;
   }
 
   nav {
