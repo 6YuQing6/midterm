@@ -56,14 +56,23 @@ const games = [
     link: "https://6yuqing6.github.io/perfectellipse/",
     date: "April 2026",
   },
+  // {
+  //   title: "Mind Palace: Running Out of Time",
+  //   description:
+  //     "Submission for Mystery Game Jam 2026. Created in a team of 5. A top-down 2D puzzle game where you play as a detective trying to solve a case before time runs out. Explore the mind palace of a witness to uncover clues and piece together the mystery.",
+  //   technologies: ["Phaser", "Javascript", "HTML", "Figma"],
+  //   image: "images/mindpalace.png",
+  //   link: "https://corvuscorae.itch.io/mind-palace-running-out-of-time",
+  //   date: "April 2026",
+  // },
   {
-    title: "Mind Palace: Running Out of Time",
+    title: "Pixel Fish Generator",
     description:
-      "Submission for Mystery Game Jam 2026. I designed the UI and created the background assets.",
-    technologies: ["Phaser", "Javascript", "HTML", "Figma"],
-    image: "images/mindpalace.png",
-    link: "https://corvuscorae.itch.io/mind-palace-running-out-of-time",
-    date: "April 2026",
+      "An interactive pixel art generator that creates a random pixel fish with each click, using perlin noise and bezier curve equations.",
+    technologies: ["Javascript", "p5.js"],
+    image: "images/fishgenerator.png",
+    link: "https://editor.p5js.org/6YuQing6/full/OHE8_BMY6",
+    date: "March 2025",
   },
   // {
   //   title: "From Stray to Slay",
